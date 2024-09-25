@@ -1,0 +1,30 @@
+.creater, .pending, .wallet{
+    width: 90%;
+    padding: 20px;
+    margin: 0px auto;
+}
+
+.crow {
+    padding: 20px 0px;
+    line-height: 30px;
+}
+
+.crow input {
+    width: 700px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.creater button, .pending button{
+    padding: 5px 10px;
+    font-size: 21px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    border: #007bff solid 2px;
+    outline: none;
+}
+
+.wallet div.wrow {
+    padding: 30px 0px;
+}

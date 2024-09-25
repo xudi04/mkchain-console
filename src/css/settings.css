@@ -1,0 +1,20 @@
+.settings {
+    width: 90%;
+    padding: 20px;
+    margin: 0px auto;
+}
+
+.srow {
+    padding: 20px 0px;
+    line-height: 50px;
+}
+
+.srow input {
+    width: 700px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.srow div{
+    line-height: 22px;
+}

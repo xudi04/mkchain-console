@@ -1,0 +1,110 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.web-header {
+    max-width: 100%;
+    height: 80px;
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px 20px;
+    text-align: center;
+}
+
+.logo {font-size: 25px;}
+
+.logo a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu {
+    max-width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu div {
+    background-color: white;
+    margin: 0px 5px;
+    border-radius: 5px;
+}
+
+.menu div a {
+    display: block;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: black;
+}
+
+/*////////// blocks area **/
+.blocks-area {
+    max-width: 100%;
+    height: 70vh;
+    padding: 30px;
+    display: flex;
+    overflow-x: scroll;
+}::-webkit-scrollbar {
+    display: none;
+}
+
+.block-div {
+    width: 350px;
+    max-width: 350px;
+    max-height: 500px;
+    padding: 20px 30px;
+    margin: 0px 20px;
+    background-color: rgb(249, 248, 248);
+    box-shadow: 2px 2px 2px 3px lightgrey;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+.block-div .at {
+    display: flex;
+    flex-direction: column;
+    margin: 25px 0px;
+    font-size: 22px;
+    border-bottom: 1px solid gray;
+}
+
+.block-div .at div:nth-child(2) {
+    margin: 10px 0px;
+    font-size: 15px;
+    width: 350px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/*////////// translate area **/
+.trans {
+    width: calc(100% - 60px);
+    margin: 40px 30px;
+}
+
+.trans .row .col.c {
+    cursor:pointer;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.row.trans-head{
+    background: lightgrey;
+}
+
+.col {
+    text-align: center;
+    padding: 10px 20px;
+    width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
